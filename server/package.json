@@ -1,0 +1,23 @@
+{
+  "name": "rollcall-server",
+  "version": "0.0.0",
+  "description": "Receives POST requests from Rollcall emails and forwards them to a Slack webhook.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mplewis/rollcall"
+  },
+  "author": "Matthew Lewis <matt@mplewis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mplewis/rollcall/issues"
+  },
+  "homepage": "https://github.com/mplewis/rollcall"
+}
