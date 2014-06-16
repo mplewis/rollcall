@@ -1,0 +1,20 @@
+.intro
+  a(href="http://punchthrough.com/")
+    img.logo(src="http://punchthrough.com/files/email_images/ptd-email-logo-520x240.png")
+  div.weather
+    p.loc San Francisco
+    img.weather-icon(src="http://mplewis.com/files/weather/clear-day.png")
+    p.hilo 72/59
+  div.weather
+    p.loc Minneapolis
+    img.weather-icon(src="http://mplewis.com/files/weather/partly-cloudy-day.png")
+    p.hilo 63/39
+.greeting
+  p.first Good morning, Matt!
+  p.second Today is Monday, June 9.
+form.response(action="/", method="post")
+  label.prompt(for="yesterday") What did you get done yesterday?
+  input#yesterday.textbox(type="text", name="yesterday")
+  label.prompt(for="yesterday") What are you working on today?
+  input#today.textbox(type="text", name="today")
+  button.submit(type="submit") I did it!
